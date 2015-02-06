@@ -71,7 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Control.cs" />
+    <Compile Include="CustomControl.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="FirstPageViewModel.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />

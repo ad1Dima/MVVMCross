@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         local:MvxBind="Text Hello" />
+<!--Binding to Text1 not works, but do for Text2-->
     <AndroidApp.CustomControl
         android:layout_width="fill_parent"
         android:layout_height="22dp"
-        local:MvxBind="Text Hello" />
+        local:MvxBind="Text1 Hello; Text2 Hello;" />
 </LinearLayout>

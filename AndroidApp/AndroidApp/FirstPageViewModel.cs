@@ -12,7 +12,7 @@ namespace AndroidApp
         {
             get
             {
-                return "asdn";
+                return "this binding works";
             }
         }
 

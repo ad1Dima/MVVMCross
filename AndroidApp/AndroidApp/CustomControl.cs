@@ -33,8 +33,26 @@ namespace AndroidApp
         }
         #endregion
 
-        public string Text
+        /// <summary>
+        /// Binding to this prop not working
+        /// </summary>
+        public string Text1
         {
+            set
+            {
+                this.text = value;
+            }
+        }
+
+        /// <summary>
+        /// But works for this
+        /// </summary>
+        public string Text2
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
             set
             {
                 this.text = value;
